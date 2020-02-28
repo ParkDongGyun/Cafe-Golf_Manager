@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_member"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:paddingVertical="3dp">
+
+    <TextView
+        android:id="@+id/tv_member_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_centerVertical="true"
+        android:text="1."
+        android:textSize="@dimen/item_text"/>
+
+    <TextView
+        android:id="@+id/tv_member_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="3dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tv_member_id"
+        android:text="박동균"
+        android:textSize="@dimen/item_text"/>
+
+
+    <Button
+        android:id="@+id/btn_lessoncount"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/green"
+        android:text="delete"
+        android:textSize="@dimen/item_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="9dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

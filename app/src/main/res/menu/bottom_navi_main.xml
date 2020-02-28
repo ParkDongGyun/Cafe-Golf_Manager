@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_member"
+        android:title="회원 관리"
+        android:icon="@drawable/member"/>
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:title="예약 관리"
+        android:icon="@drawable/booking"/>
+
+    <item
+        android:id="@+id/navigation_lesson"
+        android:title="수업 관리"
+        android:icon="@drawable/clock"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CafeGolf_Master</string>
+
+    <string name="dateformat">yyyy-MM-dd HH:mm:ss</string>
+    <string name="idformat">%d.</string>
+    <string name="lessoncountformat">%d 회</string>
+    <string name="timeformat">%s : %s</string>
+</resources>
